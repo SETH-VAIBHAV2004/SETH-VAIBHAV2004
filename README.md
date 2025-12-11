@@ -76,21 +76,21 @@ Basic UI & problem-solving tasks.
 
 ---
 
-# 📊 GitHub Stats (100% Working Versions)
+# 📊 GitHub Stats
 
-### 🔥 Main Stats (GitHub Streak — never breaks)
+### 🔥 GitHub Streak (Fully Working Version)
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com/?user=SETH-VAIBHAV2004&theme=tokyonight" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=SETH-VAIBHAV2004&theme=tokyonight" />
 </p>
 
-### 🔥 Profile Summary Cards (Very reliable)
+### 🔥 Profile Summary Card
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SETH-VAIBHAV2004&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SETH-VAIBHAV2004&theme=tokyonight"/>
 </p>
 
-### 🔥 Top Languages (Stable mirror)
+### 🔥 Top Languages (Stable Mirror)
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=SETH-VAIBHAV2004&layout=compact&theme=tokyonight" height="160"/>
+  <img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=SETH-VAIBHAV2004&layout=compact&theme=tokyonight"/>
 </p>
 
 ---
