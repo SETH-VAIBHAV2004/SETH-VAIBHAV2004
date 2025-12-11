@@ -1,0 +1,45 @@
+name: Update GitHub Stats Images
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # daily at 02:00 UTC (change if you want)
+  workflow_dispatch:       # allows manual run from Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create assets dir
+        run: mkdir -p assets/images
+
+      - name: Download GitHub streak image (herokuapp fallback)
+        run: |
+          curl -s -o assets/images/streak.png "https://github-readme-streak-stats.herokuapp.com/?user=SETH-VAIBHAV2004&theme=tokyonight"
+
+      - name: Download Profile Summary Card
+        run: |
+          curl -s -o assets/images/profile-summary.png "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SETH-VAIBHAV2004&theme=tokyonight"
+
+      - name: Download Top Languages (stable mirror)
+        run: |
+          curl -s -o assets/images/top-langs.png "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=SETH-VAIBHAV2004&layout=compact&theme=tokyonight"
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add & commit images
+        run: |
+          git add assets/images/streak.png assets/images/profile-summary.png assets/images/top-langs.png || true
+          git commit -m "chore: update GitHub stats images" || echo "no changes to commit"
+          git push origin HEAD:main || echo "push failed (check permissions/branch)"
