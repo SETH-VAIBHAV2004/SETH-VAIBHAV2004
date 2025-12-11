@@ -3,7 +3,7 @@ name: Update GitHub Stats Images
 on:
   schedule:
     - cron: '0 2 * * *'   # daily at 02:00 UTC (change if you want)
-  workflow_dispatch:       # allows manual run from Actions tab
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -21,17 +21,38 @@ jobs:
       - name: Create assets dir
         run: mkdir -p assets/images
 
-      - name: Download GitHub streak image (herokuapp fallback)
+      - name: Download GitHub streak image (follow redirects + UA)
         run: |
-          curl -s -o assets/images/streak.png "https://github-readme-streak-stats.herokuapp.com/?user=SETH-VAIBHAV2004&theme=tokyonight"
+          curl -sSL -o assets/images/streak.png \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" \
+            "https://github-readme-streak-stats.herokuapp.com/?user=SETH-VAIBHAV2004&theme=tokyonight"
 
-      - name: Download Profile Summary Card
+      - name: Download Profile Summary Card (follow redirects + UA)
         run: |
-          curl -s -o assets/images/profile-summary.png "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SETH-VAIBHAV2004&theme=tokyonight"
+          curl -sSL -o assets/images/profile-summary.png \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" \
+            "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SETH-VAIBHAV2004&theme=tokyonight"
 
-      - name: Download Top Languages (stable mirror)
+      - name: Download Top Languages (follow redirects + UA)
         run: |
-          curl -s -o assets/images/top-langs.png "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=SETH-VAIBHAV2004&layout=compact&theme=tokyonight"
+          curl -sSL -o assets/images/top-langs.png \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" \
+            "https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=SETH-VAIBHAV2004&layout=compact&theme=tokyonight"
+
+      - name: Inspect downloaded files (type & head)
+        run: |
+          echo "---- file types ----"
+          file assets/images/*.png || true
+          echo "---- first 8 bytes (hex) ----"
+          for f in assets/images/*.png; do echo "== $f =="; hexdump -n 8 -C "$f" || true; done
+          echo "---- quick text-check for HTML/errors ----"
+          for f in assets/images/*.png; do
+            if grep -Iq "<html" "$f" 2>/dev/null; then
+              echo "ERROR: $f looks like HTML/text (contains <html)"; head -n 6 "$f";
+            else
+              echo "OK: $f appears binary image";
+            fi
+          done
 
       - name: Configure Git
         run: |
