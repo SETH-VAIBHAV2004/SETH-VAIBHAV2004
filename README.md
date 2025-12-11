@@ -18,11 +18,11 @@
 ---
 
 ## 👨‍💻 About Me  
-- 🌱 Currently learning **Python**, **Reinforcement Learning**, and **Full-Stack Web Development**  
-- 🤖 Exploring **AI Resume Matching**, **RPPG frameworks**, and **ML dashboards**  
-- 🤝 Open to collaborating on **ML / RL / Backend / Web apps**  
-- 🎯 Goal: Build impactful projects with clean documentation & real deployments  
-- 📫 Reach me anytime: **vaibhavseth.02.2004@gmail.com**
+- 🌱 Learning **Python**, **Reinforcement Learning**, and **Full-Stack Web Development**  
+- 🤖 Working on **AI Resume Matching**, **RPPG frameworks**, and ML utilities  
+- 🤝 Open to collaborations in **ML / RL / Backend / AI Tools**  
+- 🎯 Goal: Build clean, useful, deployed projects  
+- 📫 Email: **vaibhavseth.02.2004@gmail.com**
 
 ---
 
@@ -38,63 +38,66 @@
 
 ---
 
-## 📂 Featured Projects  
+# 🚀 Featured Projects (Prioritized)
 
-### 🔗 **[AI-Resume Matcher](https://github.com/SETH-VAIBHAV2004/AI-RESUME-MATCHER)**  
-🤖 An AI-driven ATS-style resume & job description matcher using NLP similarity scoring.  
-- Extracts keywords  
-- Computes match-score  
-- Helps job seekers optimize resumes  
-
----
-
-### 🔗 **[Smart Energy Tracker](https://github.com/SETH-VAIBHAV2004/smart-energy-tracker)**  
-📊 A full-stack Flask application for tracking & visualizing household energy consumption.  
-- Charts, logs & insights  
-- SQLite backend  
-- Dashboard-ready structure  
+### 🔥 **[MDAR-RPPG Framework](https://github.com/SETH-VAIBHAV2004/MDAR-RPPG-Framework)**  
+📡 A research-focused Python framework for Remote Photoplethysmography (RPPG).  
+- Signal extraction  
+- Heart-rate estimation  
+- Dataset utilities  
+- Core algorithm pipeline  
 
 ---
 
-### 🔗 **[Employee Management System](https://github.com/SETH-VAIBHAV2004/EMPLOYEE_MANAGEMENT_SYSTEM)**  
-🏢 Console-based CRUD system for managing employee records with modular Python code.
+### 🤖 **[AI Resume Matcher](https://github.com/SETH-VAIBHAV2004/AI-RESUME-MATCHER)**  
+AI-powered ATS-style resume & job description similarity matcher.  
+- NLP keyword extraction  
+- Skill similarity scoring  
+- Resume parsing utilities  
 
 ---
 
-### 🔗 **[MDAR-RPPG Framework](https://github.com/SETH-VAIBHAV2004/MDAR-RPPG-Framework)**  
-📡 Research-oriented framework for remote photoplethysmography (RPPG) signal extraction.
+### 📊 **[Smart Energy Tracker](https://github.com/SETH-VAIBHAV2004/smart-energy-tracker)**  
+Flask app for tracking & visualizing energy consumption.  
+- Dashboards  
+- CSV data input  
+- Appliance-level insights  
 
 ---
 
-### 🔗 **[CODSOFT Task Projects](https://github.com/SETH-VAIBHAV2004/CODSOFT_TASK1)**  
-💻 Frontend & logic-based challenge tasks demonstrating UI design & coding fundamentals.  
-(Also includes: [Task 2](https://github.com/SETH-VAIBHAV2004/CODSOFT_TASK2))
+### 🏢 **[Employee Management System](https://github.com/SETH-VAIBHAV2004/EMPLOYEE_MANAGEMENT_SYSTEM)**  
+Console-based CRUD system with clean modular Python code.
+
+---
+
+### 💻 **[CODSOFT Task Projects](https://github.com/SETH-VAIBHAV2004/CODSOFT_TASK1)**  
+Basic UI & problem-solving tasks.  
+(Also: [Task 2](https://github.com/SETH-VAIBHAV2004/CODSOFT_TASK2))
 
 ---
 
 ## 📊 GitHub Stats  
 <p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=SETH-VAIBHAV2004&show_icons=true&theme=tokyonight"/>
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SETH-VAIBHAV2004&layout=compact&theme=tokyonight"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=SETH-VAIBHAV2004&show_icons=true&theme=tokyonight&include_all_commits=true&hide_rank=false"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SETH-VAIBHAV2004&layout=compact&theme=tokyonight"/>
 </p>
 
 ---
 
-## ✍️ Recent Learning Focus
+## ✍️ What I'm Learning Now  
 - 🎯 Reinforcement Learning: Multi-armed bandits, ε-greedy, UCB  
-- 🌐 Building small **deployed** ML/web demos  
-- 🤖 Working on improving **AI Resume Match accuracy**
+- 🤖 Improving NLP-based similarity scoring  
+- 🌐 Deploying ML models as simple web apps  
 
 ---
 
-## 💬 Connect with Me
-- 📧 Email: **vaibhavseth.02.2004@gmail.com**  
-- 🔗 LinkedIn: **vaibhav-seth**  
-- ⭐ GitHub: **SETH-VAIBHAV2004**
+## 💬 Connect with Me  
+- 📧 **vaibhavseth.02.2004@gmail.com**  
+- 🔗 **LinkedIn:** vaibhav-seth  
+- ⭐ **GitHub:** SETH-VAIBHAV2004  
 
 ---
 
 <p align="center">
-  💡 *“Code, Learn, Build — Repeat.”*  
+  💡 <i>"Keep building. Keep improving."</i>
 </p>
-
