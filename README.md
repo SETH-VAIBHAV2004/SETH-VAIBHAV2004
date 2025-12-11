@@ -19,9 +19,9 @@
 
 ## 👨‍💻 About Me  
 - 🌱 Learning **Python**, **Reinforcement Learning**, and **Full-Stack Web Development**  
-- 🤖 Working on **AI Resume Matching**, **RPPG frameworks**, and ML utilities  
-- 🤝 Open to collaborations in **ML / RL / Backend / AI Tools**  
-- 🎯 Goal: Build clean, useful, deployed projects  
+- 🤖 Building projects involving **AI Resume Matching**, **RPPG frameworks**, and **backend systems**  
+- 🤝 Open to collaborations in **ML / RL / Backend / Web Apps**  
+- 🎯 Mission: Build clean, useful, and impactful software  
 - 📫 Email: **vaibhavseth.02.2004@gmail.com**
 
 ---
@@ -42,68 +42,51 @@
 
 ### 🔥 **[MDAR-RPPG Framework](https://github.com/SETH-VAIBHAV2004/MDAR-RPPG-Framework)**  
 📡 A research-focused Python framework for Remote Photoplethysmography (RPPG).  
-- Signal extraction  
 - Heart-rate estimation  
+- Signal extraction  
 - Dataset utilities  
-- Core algorithm pipeline  
+- Core algorithmic pipeline  
 
 ---
 
 ### 🤖 **[AI Resume Matcher](https://github.com/SETH-VAIBHAV2004/AI-RESUME-MATCHER)**  
-AI-powered ATS-style resume & job description similarity matcher.  
+AI-powered tool for comparing resumes with job descriptions.  
 - NLP keyword extraction  
-- Skill similarity scoring  
+- ATS-style similarity scoring  
 - Resume parsing utilities  
 
 ---
 
 ### 📊 **[Smart Energy Tracker](https://github.com/SETH-VAIBHAV2004/smart-energy-tracker)**  
-Flask app for tracking & visualizing energy consumption.  
-- Dashboards  
-- CSV data input  
+Full-stack Flask application for visualizing energy consumption.  
 - Appliance-level insights  
+- Dashboards  
+- CSV uploads  
 
 ---
 
 ### 🏢 **[Employee Management System](https://github.com/SETH-VAIBHAV2004/EMPLOYEE_MANAGEMENT_SYSTEM)**  
-Console-based CRUD system with modular Python code.
+A Python-based console CRUD system for managing employee records.
 
 ---
 
 ### 💻 **[CODSOFT Task Projects](https://github.com/SETH-VAIBHAV2004/CODSOFT_TASK1)**  
-Basic UI & problem-solving tasks.  
-(Also: [Task 2](https://github.com/SETH-VAIBHAV2004/CODSOFT_TASK2))
-
----
-
-## 📊 GitHub Stats 
-
-<p align="center">
-  <img height="170" src="./assets/images/streak.png" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="./assets/images/profile-summary.png" alt="Profile summary card" />
-</p>
-
-<p align="center">
-  <img height="170" src="./assets/images/top-langs.png" alt="Top languages" />
-</p>
-
+Frontend & logic-based tasks demonstrating UI and problem-solving fundamentals.  
+Also see: [Task 2](https://github.com/SETH-VAIBHAV2004/CODSOFT_TASK2)
 
 ---
 
 ## ✍️ What I'm Learning Now  
-- 🎯 Reinforcement Learning: Multi-armed bandits, ε-greedy, UCB  
-- 🤖 Improving NLP-based similarity scoring  
-- 🌐 Deploying ML models as simple web apps  
+- 🎯 Multi-armed bandits, ε-greedy strategies, UCB  
+- 🤖 Improving NLP-based similarity models  
+- 🌐 Deploying ML models as web apps  
 
 ---
 
 ## 💬 Connect with Me  
-- 📧 Email: **vaibhavseth.02.2004@gmail.com**  
-- 🔗 LinkedIn: **https://www.linkedin.com/in/vaibhav-seth-1ba130245/**  
-- ⭐ GitHub: **https://github.com/SETH-VAIBHAV2004**
+- 📧 **vaibhavseth.02.2004@gmail.com**  
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/vaibhav-seth-1ba130245/  
+- ⭐ **GitHub:** https://github.com/SETH-VAIBHAV2004  
 
 ---
 
