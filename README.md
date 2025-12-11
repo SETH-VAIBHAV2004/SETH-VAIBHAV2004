@@ -66,7 +66,7 @@ Flask app for tracking & visualizing energy consumption.
 ---
 
 ### 🏢 **[Employee Management System](https://github.com/SETH-VAIBHAV2004/EMPLOYEE_MANAGEMENT_SYSTEM)**  
-Console-based CRUD system with clean modular Python code.
+Console-based CRUD system with modular Python code.
 
 ---
 
@@ -76,10 +76,21 @@ Basic UI & problem-solving tasks.
 
 ---
 
-## 📊 GitHub Stats  
+# 📊 GitHub Stats (100% Working Versions)
+
+### 🔥 Main Stats (GitHub Streak — never breaks)
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=SETH-VAIBHAV2004&show_icons=true&theme=tokyonight&include_all_commits=true&hide_rank=false"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SETH-VAIBHAV2004&layout=compact&theme=tokyonight"/>
+  <img height="170" src="https://streak-stats.demolab.com/?user=SETH-VAIBHAV2004&theme=tokyonight" />
+</p>
+
+### 🔥 Profile Summary Cards (Very reliable)
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SETH-VAIBHAV2004&theme=tokyonight" />
+</p>
+
+### 🔥 Top Languages (Stable mirror)
+<p align="center">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=SETH-VAIBHAV2004&layout=compact&theme=tokyonight" height="160"/>
 </p>
 
 ---
@@ -92,9 +103,9 @@ Basic UI & problem-solving tasks.
 ---
 
 ## 💬 Connect with Me  
-- 📧 **vaibhavseth.02.2004@gmail.com**  
-- 🔗 **LinkedIn:** vaibhav-seth  
-- ⭐ **GitHub:** SETH-VAIBHAV2004  
+- 📧 Email: **vaibhavseth.02.2004@gmail.com**  
+- 🔗 LinkedIn: **https://www.linkedin.com/in/vaibhav-seth-1ba130245/**  
+- ⭐ GitHub: **https://github.com/SETH-VAIBHAV2004**
 
 ---
 
